@@ -1,0 +1,93 @@
+body{
+    background-color: aliceblue;
+    font-family: arial;
+    color: aliceblue;
+}
+.container{
+    width: 1000px;
+    height: 1150px;
+    background-color: #B2DAFF;
+    border: 2px #9DD0FF solid;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+h1{
+    color: #C7E4FF;
+    font-size: 70px;
+    margin-left: 30px;
+    text-align: center;
+    
+}
+p{
+    color: aliceblue;
+    margin-left: 10px;
+    font-size: 20px;
+    background-color: #9DD0FF;
+    border-radius: 5px;
+    padding: 2px;
+}
+.answerSection{
+    background-color: #B2DAFF;
+    border: 2px #add7ff solid;
+    border-radius: 5px;
+    padding: 2px;
+    width: 250px;
+}
+input[type='button']{
+    background-color: aliceblue;
+    border: 2px #add7ff solid;
+    height: 30px;
+    width: 100px;
+    margin: 20px;
+    border-radius: 10px;
+    color: #6092c0;
+}
+input[type='button']:hover{
+    color: aliceblue;
+    background-color: #6092c0;
+}
+input[type='radio'] {
+    -webkit-appearance:none;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    outline:none;
+    border: 2px solid #9DD0FF;
+}
+input[type='radio']:before{
+    content:'';
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: none;
+}
+input[type='radio']:checked::before{
+    background-color: aliceblue
+    ;
+    border: none;
+}
+br::selection{
+    background-color: #6092c000;
+}
+.answerSection::selection, p::selection, h1::selection{
+    background-color: #6092c0;
+}
+#resetBtn{
+    width: 140px;
+}
+#resultBtn{
+    width: 180px;
+}
+#showResult{
+    color: aliceblue;
+    margin-left: 10px;
+    font-size: 20px;
+    background-color: #9DD0FF;
+    border-radius: 5px;
+    padding: 2px;
+    width: 520px;
+    height: 50px;
+}

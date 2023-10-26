@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--http://127.0.0.1:5500/index.html-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>QUIZ!!!</h1>
+
+    <div class="container">
+        <form name="myForm" action="" method="GET">
+            <p class="question">Znaczniki HTML strong oraz em służące do podkreślenia ważności tekstu, pod względem formatowania są odpowiednikami znaczników</p>
+            <div class="answerSection">
+                <input type="radio" id="correctAnswersOne" name="AnswersOne" value="">b oraz i<br>
+                <input type="radio" id="incorrectAnswers" name="AnswersOne" value="">i oraz mark<br>
+                <input type="radio" id="incorrectAnswers" name="AnswersOne" value="">u oraz sup<br>
+                <input type="radio" id="incorrectAnswers" name="AnswersOne" value="">b oraz u<br>
+            </div>
+
+            <p class="question">Który zapis stylu CSS ustawi tło bloku na kolor niebieski?</p>
+            <div class="answerSection">   
+                <input type="radio" id="incorrectAnswers" name="AnswersTwo" value="">div {color: blue;}<br>
+                <input type="radio" id="incorrectAnswers" name="AnswersTwo" value="">div {border-color: blue;}<br>
+                <input type="radio" id="incorrectAnswers" name="AnswersTwo" value="">div {shadow: blue;}<br>
+                <input type="radio" id="correctAnswersTwo" name="AnswersTwo" value="">div {background-color: blue;}<br>
+            </div>
+
+
+            <p class="question">W języku CSS wartości underline, overline, blink przyjmują atrybut</p>
+            <div class="answerSection">   
+                <input type="radio" id="correctAnswersThree" name="AnswersThree" value="">text-decoration<br>
+                <input type="radio" id="incorrectAnswers" name="AnswersThree" value="">font-weight<br>
+                <input type="radio" id="incorrectAnswers" name="AnswersThree" value="">font-style<br>
+                <input type="radio" id="incorrectAnswers" name="AnswersThree" value="">text-style<br>
+
+            </div>
+
+            <p class="question">Wskaż komentarz wieloliniowy w języku PHP</p>
+            <div class="answerSection">    
+                <input type="radio" id="incorrectAnswers" name="AnswersFour" value="">//<br>
+                <input type="radio" id="correctAnswersFour" name="AnswersFour" value="">/* */<br>
+                <input type="radio" id="incorrectAnswers" name="AnswersFour" value="">#<br>
+                <input type="radio" id="incorrectAnswers" name="AnswersFour" value="">&lt;!-- --&gt;<br>
+            </div>
+
+
+            <p class="question">Obiekt bazy danych, którego głównym przeznaczeniem jest drukowanie lub wyświetlanie zestawień danych, to</p>
+            <div class="answerSection">   
+                <input type="radio" id="correctAnswersFive" name="AnswersFive" value="">raport.<br>
+                <input type="radio" id="incorrectAnswers" name="AnswersFive" value="">formularz.<br>
+                <input type="radio" id="incorrectAnswers" name="AnswersFive" value="">moduł.<br>
+                <input type="radio" id="incorrectAnswers" name="AnswersFive" value="">makro.<br>
+            </div>
+
+
+            <p class="question">Zdarzenie JavaScript, będące reakcją na pojedynczo kliknięty dowolny element strony, nosi nazwę</p>
+            <div class="answerSection"> 
+                <input type="radio" id="correctAnswersSix" name="AnswersSix" value="">onClick<br>
+                <input type="radio" id="incorrectAnswers" name="AnswersSix" value="">onDblClick<br>
+                <input type="radio" id="incorrectAnswers" name="AnswersSix" value="">onKeyDown<br>
+                <input type="radio" id="incorrectAnswers" name="AnswersSix" value="">onLoad<br>
+            </div>
+
+            <input type="button" name="button" value="DONE" onClick="check(this.form)">
+
+            <!-- <input type="button" id="resetBtn" name="button" value="RESET QUIZ">
+
+            <input type="button" id="resultBtn" name="button" value="SHOW ANSWERS" onClick="check(this.form)"> -->
+        </form>
+
+        <div class="showResult">
+            <label id="result"></label>
+        </div>
+    </div>
+
+
+    <script src="java.js"></script>
+</body>
+</html>
